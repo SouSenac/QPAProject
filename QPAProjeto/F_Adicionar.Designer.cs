@@ -28,77 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            comboBox1 = new ComboBox();
-            comboBox3 = new ComboBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
+            tbxNome = new TextBox();
+            tbxQtd = new TextBox();
+            tbxCor = new TextBox();
+            cbxMarca = new ComboBox();
+            cbxCategoria = new ComboBox();
+            tbxModelo = new TextBox();
+            btnLimpar = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            button2 = new Button();
+            btnAdicionar = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // tbxNome
             // 
-            textBox1.Location = new Point(144, 50);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(318, 31);
-            textBox1.TabIndex = 0;
+            tbxNome.Location = new Point(144, 51);
+            tbxNome.Name = "tbxNome";
+            tbxNome.Size = new Size(318, 31);
+            tbxNome.TabIndex = 0;
             // 
-            // textBox4
+            // tbxQtd
             // 
-            textBox4.Location = new Point(144, 328);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(318, 31);
-            textBox4.TabIndex = 3;
-            textBox4.TextChanged += textBox4_TextChanged;
+            tbxQtd.Location = new Point(144, 328);
+            tbxQtd.Name = "tbxQtd";
+            tbxQtd.Size = new Size(318, 31);
+            tbxQtd.TabIndex = 3;
+            tbxQtd.TextChanged += textBox4_TextChanged;
             // 
-            // textBox5
+            // tbxCor
             // 
-            textBox5.Location = new Point(144, 257);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(318, 31);
-            textBox5.TabIndex = 4;
+            tbxCor.Location = new Point(144, 257);
+            tbxCor.Name = "tbxCor";
+            tbxCor.Size = new Size(318, 31);
+            tbxCor.TabIndex = 4;
             // 
-            // comboBox1
+            // cbxMarca
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Nike", "Adibas", "Jordan", "Sansumg", "Iphone", "xiaome" });
-            comboBox1.Location = new Point(144, 117);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(318, 33);
-            comboBox1.TabIndex = 6;
+            cbxMarca.FormattingEnabled = true;
+            cbxMarca.Items.AddRange(new object[] { "Nike", "Adibas", "Jordan", "Sansumg", "Iphone", "xiaome" });
+            cbxMarca.Location = new Point(144, 117);
+            cbxMarca.Name = "cbxMarca";
+            cbxMarca.Size = new Size(318, 33);
+            cbxMarca.TabIndex = 6;
             // 
-            // comboBox3
+            // cbxCategoria
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Items.AddRange(new object[] { "Sapato", "Smartphones", "Camisas", "Calça", "Notebook", "Tv", "Óculos", "Mochilas" });
-            comboBox3.Location = new Point(144, 401);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(318, 33);
-            comboBox3.TabIndex = 8;
+            cbxCategoria.FormattingEnabled = true;
+            cbxCategoria.Items.AddRange(new object[] { "Sapato", "Smartphones", "Camisas", "Calça", "Notebook", "Tv", "Óculos", "Mochilas" });
+            cbxCategoria.Location = new Point(144, 401);
+            cbxCategoria.Name = "cbxCategoria";
+            cbxCategoria.Size = new Size(318, 33);
+            cbxCategoria.TabIndex = 8;
             // 
-            // textBox3
+            // tbxModelo
             // 
-            textBox3.Location = new Point(144, 189);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(318, 31);
-            textBox3.TabIndex = 2;
+            tbxModelo.Location = new Point(144, 189);
+            tbxModelo.Name = "tbxModelo";
+            tbxModelo.Size = new Size(318, 31);
+            tbxModelo.TabIndex = 2;
             // 
-            // button1
+            // btnLimpar
             // 
-            button1.Location = new Point(490, 587);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 9;
-            button1.Text = "Limpar";
-            button1.UseVisualStyleBackColor = true;
+            btnLimpar.Location = new Point(490, 587);
+            btnLimpar.Name = "btnLimpar";
+            btnLimpar.Size = new Size(112, 34);
+            btnLimpar.TabIndex = 9;
+            btnLimpar.Text = "Limpar";
+            btnLimpar.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -173,14 +173,14 @@
             label6.TabIndex = 15;
             label6.Text = "Cor";
             // 
-            // button2
+            // btnAdicionar
             // 
-            button2.Location = new Point(490, 534);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 16;
-            button2.Text = "Adicionar";
-            button2.UseVisualStyleBackColor = true;
+            btnAdicionar.Location = new Point(490, 534);
+            btnAdicionar.Name = "btnAdicionar";
+            btnAdicionar.Size = new Size(112, 34);
+            btnAdicionar.TabIndex = 16;
+            btnAdicionar.Text = "Adicionar";
+            btnAdicionar.UseVisualStyleBackColor = true;
             // 
             // F_Adicionar
             // 
@@ -189,20 +189,20 @@
             BackgroundImage = Properties.Resources.fundo_de_papel_de_parede_colorido_embacado_artistico_58702_8313;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1075, 674);
-            Controls.Add(button2);
+            Controls.Add(btnAdicionar);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button1);
-            Controls.Add(comboBox3);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox1);
+            Controls.Add(btnLimpar);
+            Controls.Add(cbxCategoria);
+            Controls.Add(cbxMarca);
+            Controls.Add(tbxCor);
+            Controls.Add(tbxQtd);
+            Controls.Add(tbxModelo);
+            Controls.Add(tbxNome);
             DoubleBuffered = true;
             Name = "F_Adicionar";
             Text = "F_Adicionar";
@@ -212,19 +212,19 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private ComboBox comboBox1;
-        private ComboBox comboBox3;
-        private TextBox textBox3;
-        private Button button1;
+        private TextBox tbxNome;
+        private TextBox tbxQtd;
+        private TextBox tbxCor;
+        private ComboBox cbxMarca;
+        private ComboBox cbxCategoria;
+        private TextBox tbxModelo;
+        private Button btnLimpar;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
-        private Button button2;
+        private Button btnAdicionar;
     }
 }

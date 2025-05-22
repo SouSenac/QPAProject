@@ -31,7 +31,7 @@
             btnEditar = new Button();
             btnAdd = new Button();
             btnConfig = new Button();
-            comboBox1 = new ComboBox();
+            cbxFiltro = new ComboBox();
             bntPesquisa = new Button();
             SuspendLayout();
             // 
@@ -63,16 +63,16 @@
             btnConfig.Text = "Configurar";
             btnConfig.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbxFiltro
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Nike", "Adibas", "Jordan", "Sansumg", "Iphone", "xiaome" });
-            comboBox1.Location = new Point(450, 21);
-            comboBox1.Name = "comboBox1";
-            comboBox1.RightToLeft = RightToLeft.No;
-            comboBox1.Size = new Size(227, 33);
-            comboBox1.TabIndex = 4;
-            comboBox1.Text = "Nike";
+            cbxFiltro.FormattingEnabled = true;
+            cbxFiltro.Items.AddRange(new object[] { "Nike", "Adibas", "Jordan", "Sansumg", "Iphone", "xiaome" });
+            cbxFiltro.Location = new Point(450, 21);
+            cbxFiltro.Name = "cbxFiltro";
+            cbxFiltro.RightToLeft = RightToLeft.No;
+            cbxFiltro.Size = new Size(227, 33);
+            cbxFiltro.TabIndex = 4;
+            cbxFiltro.Text = "Nike";
             // 
             // bntPesquisa
             // 
@@ -91,7 +91,7 @@
             BackgroundImage = Properties.Resources.fundoTeste;
             ClientSize = new Size(1056, 658);
             Controls.Add(bntPesquisa);
-            Controls.Add(comboBox1);
+            Controls.Add(cbxFiltro);
             Controls.Add(btnConfig);
             Controls.Add(btnAdd);
             Controls.Add(btnEditar);
@@ -106,7 +106,7 @@
         private Button btnEditar;
         private Button btnAdd;
         private Button btnConfig;
-        private ComboBox comboBox1;
+        private ComboBox cbxFiltro;
         private Button bntPesquisa;
     }
 }

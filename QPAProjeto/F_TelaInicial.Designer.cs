@@ -37,7 +37,7 @@
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(732, 21);
+            btnEditar.Location = new Point(743, 21);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(78, 34);
             btnEditar.TabIndex = 1;
@@ -46,7 +46,7 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(816, 21);
+            btnAdd.Location = new Point(827, 21);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(99, 34);
             btnAdd.TabIndex = 2;
@@ -56,7 +56,7 @@
             // 
             // btnConfig
             // 
-            btnConfig.Location = new Point(921, 21);
+            btnConfig.Location = new Point(932, 20);
             btnConfig.Name = "btnConfig";
             btnConfig.Size = new Size(112, 34);
             btnConfig.TabIndex = 3;
@@ -67,7 +67,7 @@
             // 
             cbxFiltro.FormattingEnabled = true;
             cbxFiltro.Items.AddRange(new object[] { "Nike", "Adibas", "Jordan", "Sansumg", "Iphone", "xiaome" });
-            cbxFiltro.Location = new Point(450, 21);
+            cbxFiltro.Location = new Point(465, 21);
             cbxFiltro.Name = "cbxFiltro";
             cbxFiltro.RightToLeft = RightToLeft.No;
             cbxFiltro.Size = new Size(227, 33);
@@ -78,9 +78,9 @@
             // 
             bntPesquisa.BackgroundImage = Properties.Resources.lupa;
             bntPesquisa.BackgroundImageLayout = ImageLayout.Zoom;
-            bntPesquisa.Location = new Point(683, 21);
+            bntPesquisa.Location = new Point(698, 21);
             bntPesquisa.Name = "bntPesquisa";
-            bntPesquisa.Size = new Size(49, 34);
+            bntPesquisa.Size = new Size(39, 34);
             bntPesquisa.TabIndex = 5;
             bntPesquisa.UseVisualStyleBackColor = true;
             // 
@@ -88,7 +88,6 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.fundoTeste;
             ClientSize = new Size(1056, 658);
             Controls.Add(bntPesquisa);
             Controls.Add(cbxFiltro);

@@ -17,3 +17,23 @@ C:\Users\Aluno\Documents\QPAProjeto\QPAProjeto\obj\Debug\net8.0-windows\QPAProje
 C:\Users\Aluno\Documents\QPAProjeto\QPAProjeto\obj\Debug\net8.0-windows\ref\QPAProjeto.dll
 C:\Users\Aluno\Documents\QPAProjeto\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.Properties.Resources.resources
 C:\Users\Aluno\Documents\QPAProjeto\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.F_Adicionar.resources
+D:\Projetos C#\QPAProject\QPAProjeto\bin\Debug\net8.0-windows\QPAProjeto.exe
+D:\Projetos C#\QPAProject\QPAProjeto\bin\Debug\net8.0-windows\QPAProjeto.deps.json
+D:\Projetos C#\QPAProject\QPAProjeto\bin\Debug\net8.0-windows\QPAProjeto.runtimeconfig.json
+D:\Projetos C#\QPAProject\QPAProjeto\bin\Debug\net8.0-windows\QPAProjeto.dll
+D:\Projetos C#\QPAProject\QPAProjeto\bin\Debug\net8.0-windows\QPAProjeto.pdb
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.Form1.resources
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.F_Adicionar.resources
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.F_TelaInicial.resources
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.Properties.Resources.resources
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.csproj.GenerateResource.cache
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.AssemblyInfoInputs.cache
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.AssemblyInfo.cs
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.csproj.CoreCompileInputs.cache
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.sourcelink.json
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.dll
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\refint\QPAProjeto.dll
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.pdb
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\QPAProjeto.genruntimeconfig.cache
+D:\Projetos C#\QPAProject\QPAProjeto\obj\Debug\net8.0-windows\ref\QPAProjeto.dll

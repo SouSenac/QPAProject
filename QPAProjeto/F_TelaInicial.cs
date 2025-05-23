@@ -31,13 +31,14 @@ namespace QPAProjeto
             dgvEstoque.Columns.Add("Marca", "Marca");
             dgvEstoque.Columns.Add("Categoria", "Categoria");
             dgvEstoque.Columns.Add("Modelo", "Modelo");
+            dgvEstoque.Columns.Add("Cor", "Cor");
             dgvEstoque.Columns.Add("Quantidade", "Quantidade");
 
             // Adiciona algumas linhas de exemplo
-            dgvEstoque.Rows.Add("Iphone 12", "Apple", "Smartphone", "Iphone 12", 10);
-            dgvEstoque.Rows.Add("Tenis Nike Air force", "Nike", "Tênis", "Masculino", 27);
-            dgvEstoque.Rows.Add("Smart TV", "Samsung", "TV", "Smart TV", 7);
-            dgvEstoque.Rows.Add("Smart TV", "Samsung", "TV", "Smart TV", 7);
+            dgvEstoque.Rows.Add("Iphone 12", "Apple", "Smartphone", "Iphone 12", "Grafite", 10);
+            dgvEstoque.Rows.Add("Tenis Nike Air force", "Nike", "Tênis", "Masculino", "Branco", 27);
+            dgvEstoque.Rows.Add("Smart TV", "Samsung", "TV", "Smart TV", "***", 7);
+            dgvEstoque.Rows.Add("Smart TV", "Samsung", "TV", "Smart TV", "***", 7);
 
             // Adiciona o controle ao formulário
             this.Controls.Add(dgvEstoque);
@@ -45,7 +46,8 @@ namespace QPAProjeto
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            F_Adicionar f_Adicionar = new F_Adicionar();
+            f_Adicionar.ShowDialog();
         }
     }
 }

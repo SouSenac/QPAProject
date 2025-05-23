@@ -87,7 +87,7 @@
             bntPesquisa.Location = new Point(489, 13);
             bntPesquisa.Margin = new Padding(2);
             bntPesquisa.Name = "bntPesquisa";
-            bntPesquisa.Size = new Size(27, 20);
+            bntPesquisa.Size = new Size(26, 23);
             bntPesquisa.TabIndex = 5;
             bntPesquisa.UseVisualStyleBackColor = true;
             // 

@@ -126,7 +126,7 @@
             Controls.Add(label1);
             Margin = new Padding(2);
             Name = "Form1";
-            Text = "Form1";
+            Text = "LOGIN";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

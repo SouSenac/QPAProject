@@ -115,7 +115,7 @@
             Controls.Add(btnEditar);
             Margin = new Padding(2);
             Name = "F_TelaInicial";
-            Text = "F_TelaInicial";
+            Text = "Estoque";
             Load += F_TelaInicial_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

@@ -23,8 +23,8 @@ namespace QPAProjeto
             DataGridView dgvEstoque = new DataGridView();
             dgvEstoque.Name = "dgvEstoque";
             dgvEstoque.Location = new Point(10, 100);
-            dgvEstoque.Size = new Size(900, 250);
-            dgvEstoque.AllowUserToAddRows = true; // Não permite adicionar linhas manualmente
+            dgvEstoque.Size = new Size(500, 250);
+            dgvEstoque.AllowUserToAddRows = false; // Não permite adicionar linhas manualmente
 
             // Adiciona colunas
             dgvEstoque.Columns.Add("Produto", "Produto");
@@ -42,6 +42,15 @@ namespace QPAProjeto
             
             // Adiciona o controle ao formulário
             this.Controls.Add(dgvEstoque);
+
+            Panel linhaDivisoria = new Panel();
+            linhaDivisoria.Height = 2; // altura da linha
+            linhaDivisoria.Width = 1000000000; // largura igual à do formulário
+            linhaDivisoria.BackColor = Color.Gray; // cor da linha
+            linhaDivisoria.Top = 50; // posição vertical da linha
+            linhaDivisoria.Left = 0; // posição horizontal
+
+            this.Controls.Add(linhaDivisoria);
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -49,5 +58,7 @@ namespace QPAProjeto
             F_Adicionar f_Adicionar = new F_Adicionar();
             f_Adicionar.ShowDialog();
         }
+
+       
     }
 }

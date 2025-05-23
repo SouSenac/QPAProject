@@ -63,7 +63,7 @@
             // tbxCred
             // 
             tbxCred.Location = new Point(116, 65);
-            tbxCred.Margin = new Padding(2, 2, 2, 2);
+            tbxCred.Margin = new Padding(2);
             tbxCred.Name = "tbxCred";
             tbxCred.Size = new Size(106, 23);
             tbxCred.TabIndex = 2;
@@ -71,7 +71,7 @@
             // tbxSenha
             // 
             tbxSenha.Location = new Point(116, 113);
-            tbxSenha.Margin = new Padding(2, 2, 2, 2);
+            tbxSenha.Margin = new Padding(2);
             tbxSenha.Name = "tbxSenha";
             tbxSenha.Size = new Size(106, 23);
             tbxSenha.TabIndex = 3;
@@ -79,7 +79,7 @@
             // btnAcessar
             // 
             btnAcessar.Location = new Point(128, 161);
-            btnAcessar.Margin = new Padding(2, 2, 2, 2);
+            btnAcessar.Margin = new Padding(2);
             btnAcessar.Name = "btnAcessar";
             btnAcessar.Size = new Size(78, 20);
             btnAcessar.TabIndex = 4;
@@ -103,12 +103,13 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.LogoQPA_SEM_FUNDO;
-            pictureBox1.Location = new Point(12, 3);
+            pictureBox1.Location = new Point(266, -15);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(46, 47);
+            pictureBox1.Size = new Size(76, 80);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // Form1
             // 
@@ -123,7 +124,7 @@
             Controls.Add(tbxCred);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

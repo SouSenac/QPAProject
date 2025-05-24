@@ -12,9 +12,10 @@ namespace QPAProjeto
 {
     public partial class F_TelaInicial : Form
     {
-        public F_TelaInicial()
+        public F_TelaInicial(Form1 f)
         {
             InitializeComponent();
+            f.Visible = false;
         }
 
         private void F_TelaInicial_Load(object sender, EventArgs e)
@@ -57,6 +58,7 @@ namespace QPAProjeto
         {
             F_Adicionar f_Adicionar = new F_Adicionar();
             f_Adicionar.ShowDialog();
+            
         }
 
        

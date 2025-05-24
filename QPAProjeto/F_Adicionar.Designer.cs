@@ -47,7 +47,7 @@
             // tbxNome
             // 
             tbxNome.Location = new Point(101, 31);
-            tbxNome.Margin = new Padding(2, 2, 2, 2);
+            tbxNome.Margin = new Padding(2);
             tbxNome.Name = "tbxNome";
             tbxNome.Size = new Size(224, 23);
             tbxNome.TabIndex = 0;
@@ -55,7 +55,7 @@
             // tbxQtd
             // 
             tbxQtd.Location = new Point(101, 197);
-            tbxQtd.Margin = new Padding(2, 2, 2, 2);
+            tbxQtd.Margin = new Padding(2);
             tbxQtd.Name = "tbxQtd";
             tbxQtd.Size = new Size(224, 23);
             tbxQtd.TabIndex = 3;
@@ -64,7 +64,7 @@
             // tbxCor
             // 
             tbxCor.Location = new Point(101, 154);
-            tbxCor.Margin = new Padding(2, 2, 2, 2);
+            tbxCor.Margin = new Padding(2);
             tbxCor.Name = "tbxCor";
             tbxCor.Size = new Size(224, 23);
             tbxCor.TabIndex = 4;
@@ -74,7 +74,7 @@
             cbxMarca.FormattingEnabled = true;
             cbxMarca.Items.AddRange(new object[] { "Nike", "Adibas", "Jordan", "Sansumg", "Iphone", "xiaome" });
             cbxMarca.Location = new Point(101, 70);
-            cbxMarca.Margin = new Padding(2, 2, 2, 2);
+            cbxMarca.Margin = new Padding(2);
             cbxMarca.Name = "cbxMarca";
             cbxMarca.Size = new Size(224, 23);
             cbxMarca.TabIndex = 6;
@@ -84,7 +84,7 @@
             cbxCategoria.FormattingEnabled = true;
             cbxCategoria.Items.AddRange(new object[] { "Sapato", "Smartphones", "Camisas", "Calça", "Notebook", "Tv", "Óculos", "Mochilas" });
             cbxCategoria.Location = new Point(101, 241);
-            cbxCategoria.Margin = new Padding(2, 2, 2, 2);
+            cbxCategoria.Margin = new Padding(2);
             cbxCategoria.Name = "cbxCategoria";
             cbxCategoria.Size = new Size(224, 23);
             cbxCategoria.TabIndex = 8;
@@ -92,7 +92,7 @@
             // tbxModelo
             // 
             tbxModelo.Location = new Point(101, 113);
-            tbxModelo.Margin = new Padding(2, 2, 2, 2);
+            tbxModelo.Margin = new Padding(2);
             tbxModelo.Name = "tbxModelo";
             tbxModelo.Size = new Size(224, 23);
             tbxModelo.TabIndex = 2;
@@ -100,7 +100,7 @@
             // btnLimpar
             // 
             btnLimpar.Location = new Point(343, 352);
-            btnLimpar.Margin = new Padding(2, 2, 2, 2);
+            btnLimpar.Margin = new Padding(2);
             btnLimpar.Name = "btnLimpar";
             btnLimpar.Size = new Size(78, 20);
             btnLimpar.TabIndex = 9;
@@ -189,7 +189,7 @@
             // btnAdicionar
             // 
             btnAdicionar.Location = new Point(343, 320);
-            btnAdicionar.Margin = new Padding(2, 2, 2, 2);
+            btnAdicionar.Margin = new Padding(2);
             btnAdicionar.Name = "btnAdicionar";
             btnAdicionar.Size = new Size(78, 20);
             btnAdicionar.TabIndex = 16;
@@ -218,9 +218,10 @@
             Controls.Add(tbxModelo);
             Controls.Add(tbxNome);
             DoubleBuffered = true;
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "F_Adicionar";
             Text = "Adicionar";
+            Load += F_Adicionar_Load;
             ResumeLayout(false);
             PerformLayout();
         }

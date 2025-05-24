@@ -17,8 +17,9 @@ namespace QPAProjeto
                 if (senha == "1")
                 {
                     //MessageBox.Show("Acesso permitido", "teste", MessageBoxButtons.OK);
-                    F_TelaInicial f_TelaInicial = new F_TelaInicial();
-                    f_TelaInicial.ShowDialog();
+                    F_TelaInicial f_TelaInicial = new F_TelaInicial(this);
+                    f_TelaInicial.ShowDialog(this);
+                    this.Close();
                     tbxCred.Text = "";
                     tbxSenha.Text = "";
                 }

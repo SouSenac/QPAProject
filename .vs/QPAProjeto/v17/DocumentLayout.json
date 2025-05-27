@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projetos C#\\QPAProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|d:\\projetos c#\\qpaproject\\qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|d:\\projetos c#\\qpaproject\\qpaprojeto\\f_adicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\f_adicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +15,16 @@
       "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\f_adicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|d:\\projetos c#\\qpaproject\\qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|d:\\projetos c#\\qpaproject\\qpaprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|D:\\Projetos C#\\QPAProject\\qpaprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|D:\\Projetos C#\\QPAProject\\qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|d:\\projetos c#\\qpaproject\\qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641A9194-07AB-4281-8FDA-422D6C50812C}|QPAProjeto\\QPAProjeto.csproj|solutionrelative:qpaprojeto\\f_telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "F_Adicionar.cs [Projeto]",
               "DocumentMoniker": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\F_Adicionar.cs",
               "RelativeDocumentMoniker": "QPAProjeto\\F_Adicionar.cs",
@@ -50,45 +50,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "F_Adicionar.cs",
               "DocumentMoniker": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\F_Adicionar.cs",
               "RelativeDocumentMoniker": "QPAProjeto\\F_Adicionar.cs",
               "ToolTip": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\F_Adicionar.cs",
               "RelativeToolTip": "QPAProjeto\\F_Adicionar.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T00:10:26.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "F_TelaInicial.cs [Projeto]",
               "DocumentMoniker": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\F_TelaInicial.cs",
               "RelativeDocumentMoniker": "QPAProjeto\\F_TelaInicial.cs",
               "ToolTip": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\F_TelaInicial.cs [Projeto]",
               "RelativeToolTip": "QPAProjeto\\F_TelaInicial.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:51:19.396Z",
+              "WhenOpened": "2025-05-27T17:47:33.151Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "F_TelaInicial.cs",
               "DocumentMoniker": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\F_TelaInicial.cs",
               "RelativeDocumentMoniker": "QPAProjeto\\F_TelaInicial.cs",
               "ToolTip": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\F_TelaInicial.cs",
               "RelativeToolTip": "QPAProjeto\\F_TelaInicial.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T22:55:38.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\Form1.cs",
               "RelativeDocumentMoniker": "QPAProjeto\\Form1.cs",
@@ -101,15 +101,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\Form1.cs",
               "RelativeDocumentMoniker": "QPAProjeto\\Form1.cs",
               "ToolTip": "D:\\Projetos C#\\QPAProject\\QPAProjeto\\Form1.cs [Projeto]",
               "RelativeToolTip": "QPAProjeto\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:49:05.74Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-22T22:49:05.74Z"
             }
           ]
         }

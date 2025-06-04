@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QPAProjeto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edbbef2cdebdcfb44de7ba1cbba09ef00ffa2058")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f4b77c4941987c87c2aefe51bc03666b434613")]
 [assembly: System.Reflection.AssemblyProductAttribute("QPAProjeto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QPAProjeto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -42,7 +42,8 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Location = new Point(141, 48);
+            label1.ForeColor = SystemColors.ButtonFace;
+            label1.Location = new Point(146, 48);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(47, 15);
@@ -53,6 +54,7 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.AliceBlue;
             label2.Location = new Point(146, 96);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
@@ -62,6 +64,7 @@
             // 
             // tbxCred
             // 
+            tbxCred.BorderStyle = BorderStyle.FixedSingle;
             tbxCred.Location = new Point(116, 65);
             tbxCred.Margin = new Padding(2);
             tbxCred.Name = "tbxCred";
@@ -78,7 +81,7 @@
             // 
             // btnAcessar
             // 
-            btnAcessar.Location = new Point(129, 198);
+            btnAcessar.Location = new Point(127, 165);
             btnAcessar.Margin = new Padding(2);
             btnAcessar.Name = "btnAcessar";
             btnAcessar.Size = new Size(78, 20);
@@ -91,8 +94,9 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Swis721 Hv BT", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(134, 17);
+            label3.Font = new Font("Swis721 Hv BT", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.AliceBlue;
+            label3.Location = new Point(132, 13);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(73, 22);
@@ -103,7 +107,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.LogoQPA_SEM_FUNDO;
-            pictureBox1.Location = new Point(266, -15);
+            pictureBox1.Location = new Point(1, -8);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(76, 80);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -115,8 +119,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.fundo_de_papel_de_parede_colorido_embacado_artistico_58702_8313;
-            ClientSize = new Size(349, 257);
+            BackgroundImage = Properties.Resources.Avião_deixando_caixa_nos_céus;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(362, 264);
             Controls.Add(pictureBox1);
             Controls.Add(label3);
             Controls.Add(btnAcessar);

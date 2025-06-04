@@ -46,7 +46,7 @@
             // 
             // tbxNome
             // 
-            tbxNome.Location = new Point(101, 31);
+            tbxNome.Location = new Point(117, 46);
             tbxNome.Margin = new Padding(2);
             tbxNome.Name = "tbxNome";
             tbxNome.Size = new Size(224, 23);
@@ -54,7 +54,7 @@
             // 
             // tbxQtd
             // 
-            tbxQtd.Location = new Point(101, 197);
+            tbxQtd.Location = new Point(117, 212);
             tbxQtd.Margin = new Padding(2);
             tbxQtd.Name = "tbxQtd";
             tbxQtd.Size = new Size(224, 23);
@@ -63,7 +63,7 @@
             // 
             // tbxCor
             // 
-            tbxCor.Location = new Point(101, 154);
+            tbxCor.Location = new Point(117, 169);
             tbxCor.Margin = new Padding(2);
             tbxCor.Name = "tbxCor";
             tbxCor.Size = new Size(224, 23);
@@ -73,7 +73,7 @@
             // 
             cbxMarca.FormattingEnabled = true;
             cbxMarca.Items.AddRange(new object[] { "Nike", "Adibas", "Jordan", "Sansumg", "Iphone", "xiaome" });
-            cbxMarca.Location = new Point(101, 70);
+            cbxMarca.Location = new Point(117, 85);
             cbxMarca.Margin = new Padding(2);
             cbxMarca.Name = "cbxMarca";
             cbxMarca.Size = new Size(224, 23);
@@ -83,7 +83,7 @@
             // 
             cbxCategoria.FormattingEnabled = true;
             cbxCategoria.Items.AddRange(new object[] { "Sapato", "Smartphones", "Camisas", "Calça", "Notebook", "Tv", "Óculos", "Mochilas" });
-            cbxCategoria.Location = new Point(101, 241);
+            cbxCategoria.Location = new Point(117, 256);
             cbxCategoria.Margin = new Padding(2);
             cbxCategoria.Name = "cbxCategoria";
             cbxCategoria.Size = new Size(224, 23);
@@ -91,7 +91,7 @@
             // 
             // tbxModelo
             // 
-            tbxModelo.Location = new Point(101, 113);
+            tbxModelo.Location = new Point(117, 128);
             tbxModelo.Margin = new Padding(2);
             tbxModelo.Name = "tbxModelo";
             tbxModelo.Size = new Size(224, 23);
@@ -114,7 +114,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Impact", 12F);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(24, 30);
+            label1.Location = new Point(40, 45);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(46, 20);
@@ -127,7 +127,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Impact", 12F);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(19, 73);
+            label2.Location = new Point(35, 88);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(50, 20);
@@ -140,7 +140,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Impact", 12F);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(15, 113);
+            label3.Location = new Point(31, 128);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(56, 20);
@@ -153,7 +153,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Impact", 12F);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(8, 243);
+            label4.Location = new Point(24, 258);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
             label4.Size = new Size(73, 20);
@@ -167,7 +167,7 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Impact", 12F);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(8, 197);
+            label5.Location = new Point(24, 212);
             label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
             label5.Size = new Size(83, 20);
@@ -180,7 +180,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Impact", 12F);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(20, 155);
+            label6.Location = new Point(36, 170);
             label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
             label6.Size = new Size(32, 20);
@@ -203,7 +203,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.fundo_de_papel_de_parede_colorido_embacado_artistico_58702_8313;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(752, 404);
+            ClientSize = new Size(752, 472);
             Controls.Add(btnAdicionar);
             Controls.Add(label6);
             Controls.Add(label5);

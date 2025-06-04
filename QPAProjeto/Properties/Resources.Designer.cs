@@ -63,6 +63,16 @@ namespace QPAProjeto.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Avião_deixando_caixa_nos_céus {
+            get {
+                object obj = ResourceManager.GetObject("Avião deixando caixa nos céus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundo_de_papel_de_parede_colorido_embacado_artistico_58702_8313 {
             get {
                 object obj = ResourceManager.GetObject("fundo-de-papel-de-parede-colorido-embacado-artistico_58702-8313", resourceCulture);
@@ -96,6 +106,26 @@ namespace QPAProjeto.Properties {
         internal static System.Drawing.Bitmap lupa {
             get {
                 object obj = ResourceManager.GetObject("lupa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QPAAviao {
+            get {
+                object obj = ResourceManager.GetObject("QPAAviao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QPAAviao1 {
+            get {
+                object obj = ResourceManager.GetObject("QPAAviao1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

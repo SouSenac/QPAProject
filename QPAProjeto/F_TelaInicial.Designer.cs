@@ -51,7 +51,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.LogoQPA_SEM_FUNDO;
-            pictureBox1.Location = new Point(0, -6);
+            pictureBox1.Location = new Point(3, -6);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(54, 53);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -104,6 +104,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = Color.Transparent;
             menuStrip1.Items.AddRange(new ToolStripItem[] { genreciarToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
@@ -114,7 +115,9 @@
             // 
             // genreciarToolStripMenuItem
             // 
+            genreciarToolStripMenuItem.BackColor = Color.White;
             genreciarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cadastrarToolStripMenuItem, editarToolStripMenuItem1, excluirToolStripMenuItem });
+            genreciarToolStripMenuItem.ForeColor = SystemColors.ActiveCaptionText;
             genreciarToolStripMenuItem.Name = "genreciarToolStripMenuItem";
             genreciarToolStripMenuItem.Size = new Size(69, 20);
             genreciarToolStripMenuItem.Text = "Genreciar";
@@ -122,26 +125,28 @@
             // cadastrarToolStripMenuItem
             // 
             cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            cadastrarToolStripMenuItem.Size = new Size(180, 22);
+            cadastrarToolStripMenuItem.Size = new Size(124, 22);
             cadastrarToolStripMenuItem.Text = "Cadastrar";
             cadastrarToolStripMenuItem.Click += cadastrarToolStripMenuItem_Click;
             // 
             // editarToolStripMenuItem1
             // 
             editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
-            editarToolStripMenuItem1.Size = new Size(180, 22);
+            editarToolStripMenuItem1.Size = new Size(124, 22);
             editarToolStripMenuItem1.Text = "Editar";
             // 
             // excluirToolStripMenuItem
             // 
             excluirToolStripMenuItem.Name = "excluirToolStripMenuItem";
-            excluirToolStripMenuItem.Size = new Size(180, 22);
+            excluirToolStripMenuItem.Size = new Size(124, 22);
             excluirToolStripMenuItem.Text = "excluir";
             // 
             // F_TelaInicial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Avião_deixando_caixa_nos_céus;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(739, 395);
             Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);

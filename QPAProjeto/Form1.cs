@@ -9,6 +9,8 @@ namespace QPAProjeto
 
         private void btnAcessar_Click(object sender, EventArgs e)
         {
+
+            
             int credencial = Convert.ToInt32(tbxCred.Text);
             String senha = tbxSenha.Text;
 

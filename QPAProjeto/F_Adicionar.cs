@@ -15,7 +15,7 @@ namespace QPAProjeto
         public F_Adicionar()
         {
             InitializeComponent();
-            
+
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -30,6 +30,19 @@ namespace QPAProjeto
 
         private void F_Adicionar_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            tbxNome.Clear();
+            tbxCor.Clear();
+            tbxModelo.Clear();
+            tbxQtd.Clear();
+
+            cbxCategoria.SelectedIndex = -1;
+            cbxMarca.SelectedIndex = -1;
+
 
         }
     }

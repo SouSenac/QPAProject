@@ -56,11 +56,14 @@ namespace QPAProjeto
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            F_Adicionar f_Adicionar = new F_Adicionar();
-            f_Adicionar.ShowDialog();
+            
 
         }
 
-        
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_Adicionar f_Adicionar = new F_Adicionar();
+            f_Adicionar.ShowDialog();
+        }
     }
 }

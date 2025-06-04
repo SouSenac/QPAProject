@@ -42,12 +42,12 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Location = new Point(134, 49);
+            label1.Location = new Point(141, 48);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(63, 15);
+            label1.Size = new Size(47, 15);
             label1.TabIndex = 0;
-            label1.Text = "Credencial";
+            label1.Text = "Usuário";
             // 
             // label2
             // 
@@ -78,7 +78,7 @@
             // 
             // btnAcessar
             // 
-            btnAcessar.Location = new Point(128, 161);
+            btnAcessar.Location = new Point(129, 198);
             btnAcessar.Margin = new Padding(2);
             btnAcessar.Name = "btnAcessar";
             btnAcessar.Size = new Size(78, 20);
